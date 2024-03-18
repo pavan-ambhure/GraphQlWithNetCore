@@ -1,7 +1,12 @@
-﻿var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+﻿using GraphQLWithNetCore.Schema;
 
-app.MapGet("/", () => "Hello World!");
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddGraphQLServer().AddQueryType<Query>();
+
+
+var app = builder.Build();
+app.MapGraphQL();
+
 
 app.Run();
 
