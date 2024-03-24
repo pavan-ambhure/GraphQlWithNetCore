@@ -1,0 +1,2 @@
+# GraphQlWithNetCore
+# GraphQlWithNetCore
