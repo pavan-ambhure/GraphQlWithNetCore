@@ -12,8 +12,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Schema\" />
+    <None Remove="Schema\Mutations\" />
+    <None Remove="Schema\Queries\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Schema\" />
+    <Folder Include="Schema\Mutations\" />
+    <Folder Include="Schema\Queries\" />
   </ItemGroup>
 </Project>

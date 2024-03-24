@@ -1,7 +1,7 @@
 ﻿using System;
 using Bogus;
 
-namespace GraphQLWithNetCore.Schema
+namespace GraphQLWithNetCore.Schema.Queries
 {
     public class Query
     {
