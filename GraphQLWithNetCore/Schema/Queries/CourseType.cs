@@ -1,4 +1,6 @@
 ﻿using System;
+using GraphQLWithNetCore.Models;
+
 namespace GraphQLWithNetCore.Schema.Queries;
 
 public class CourseType
@@ -11,10 +13,4 @@ public class CourseType
 	[GraphQLNonNullType]
 	public InstructorType? Instructor { get; set; }
 
-}
-public enum Subject
-{
-	Mathematics,
-	Science,
-	History
 }

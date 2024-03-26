@@ -1,5 +1,6 @@
 ﻿using System;
 using Bogus;
+using GraphQLWithNetCore.Models;
 
 namespace GraphQLWithNetCore.Schema.Queries
 {
